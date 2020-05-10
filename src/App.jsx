@@ -1,10 +1,11 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
+import TodoList from './todos/TodoList.jsx';
 import './App.css';
 
 const App = () => (
   <div>
-    <h1>Hello World!</h1>
+    <TodoList />
   </div>
 );
 
